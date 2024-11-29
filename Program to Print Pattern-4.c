@@ -10,7 +10,7 @@ O/P:
 
 */
 
-// //Logic 1
+// Logic 1 : Rows are numbered starting from 1, 2,3 ..
 
 #include<stdio.h>
 
@@ -36,7 +36,7 @@ int main()
 
 
 
-// Logic 2
+// Logic 2 : Rows are numbered starting from 4,3,2,1 i.e in reverse order
 
 // #include<stdio.h>
 
