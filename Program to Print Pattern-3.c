@@ -11,7 +11,7 @@ row=4
 
 int main()
 {
-   int row,col,i,j;
+   int row,i,j;
    printf("Enter no of rows=");
    scanf("%d",&row);
   
