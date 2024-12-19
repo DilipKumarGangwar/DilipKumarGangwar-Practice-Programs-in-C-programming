@@ -2,11 +2,18 @@
 /*
 row=4
 
-1
-1 2
-1 2 3
-1 2 3 4
+4
+4 3
+4 3 2
+4 3 2 1
 
+row=5
+
+5 
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
 
 */
 #include<stdio.h>
@@ -22,7 +29,7 @@ int main()
    for(i=1;i<=row;i++)
    {
     //Print the row
-    for(j=1;j<=i;j++)
+    for(j=row;j >= row-i+1;j--)
        printf("%d ",j);
     //change line   
     printf("\n");   

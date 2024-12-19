@@ -1,10 +1,20 @@
+//Print below Pattern
 /*
 row=4
 
 4
-4 3
-4 3 2
-4 3 2 1
+4 5
+4 5 6
+4 5 6 7
+
+row=5
+
+5 
+5 6
+5 6 7
+5 6 7 8
+5 6 7 8 9
+
 
 */
 #include<stdio.h>
@@ -20,7 +30,7 @@ int main()
    for(i=1;i<=row;i++)
    {
     //Print the row
-    for(j=row;j>=row-i+1;j--)
+    for(j=row;j<=row+i-1;j++)
        printf("%d ",j);
     //change line   
     printf("\n");   
