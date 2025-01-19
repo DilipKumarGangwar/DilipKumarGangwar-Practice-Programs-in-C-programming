@@ -1,4 +1,4 @@
-//Print below Pattern ( PYRAMID)
+//Print below Pattern ( DIAMOND )
 /*
 row=4
    *
